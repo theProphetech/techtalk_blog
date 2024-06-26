@@ -61,3 +61,42 @@
     color: var(--pry--clr);
     letter-spacing: 1px;
 }
+
+/* 
+Styling of hambureger icon => start
+*/
+
+.hamburger {
+    display: none;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    overflow: hidden;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    padding: 0 0.3rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hamburger>div {
+    height: 3px;
+    position: relative;
+    width: 100%;
+    /* border: 1px solid red; */
+
+    border-radius: 100px;
+    background-color: var(--sec--clr);
+}
+
+.hamburger>div:nth-child(1) {
+    transform: translateY(10px);
+}
+
+.hamburger>div:nth-child(2) {
+    width: 70%;
+    transform: translateY(14px);
+}
+
+/* 
+Styling of hambureger icon => end
+*/

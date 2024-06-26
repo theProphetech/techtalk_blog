@@ -1,3 +1,7 @@
+/* 
+Tablet size styling => start
+*/
+
 footer {
     position: relative;
     width: 100%;
@@ -6,13 +10,20 @@ footer {
     padding: 5rem 2.5rem;
 }
 
+.footer--info--con {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
 .newsletter {
     width: max-content;
     position: relative;
     /* border: 2px solid red; */
     background-color: rgba(255, 255, 255, 0.1);
     color: var(--txt--clr2);
-    padding: 2rem;
+    padding: 1rem;
     border-radius: 10px;
 }
 
@@ -33,7 +44,7 @@ footer {
     color: var(--txt--clr1);
 }
 
-.input-Btn--con{
+.input-Btn--con {
     display: flex;
     margin-top: 1rem;
     gap: 1rem;
@@ -61,11 +72,6 @@ footer {
     box-shadow: 0 10px 5px 0 rgba(0, 0, 0, 0.5);
 }
 
-.footer--info--con {
-    display: flex;
-  justify-content: space-between;
-    align-items: center;
-}
 
 address>p {
     margin-bottom: 0.5rem;
@@ -103,3 +109,12 @@ address span {
 .socials--con>ul img {
     width: 30px;
 }
+
+.copyright {
+    margin-top: 2rem;
+    color: var(--sec--clr);
+}
+
+/* 
+Tablet size styling => end
+*/

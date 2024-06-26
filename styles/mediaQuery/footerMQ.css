@@ -1,0 +1,9 @@
+@media (max-width : 784px) {
+    .footer--info--con {
+        flex-wrap: wrap;
+    }
+
+    .newsletter {
+        margin-top: 1rem;
+    }
+}

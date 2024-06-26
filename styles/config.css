@@ -42,6 +42,7 @@ input {
     display: inline-block;
 }
 
-.latestpostIntro-title, .categories--intro>.catIntro-title{
+.latestpostIntro-title,
+.categories--intro>.catIntro-title {
     color: var(--sec--clr);
 }

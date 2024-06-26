@@ -1,0 +1,37 @@
+/*MAIN MEDIA QUERIES IMPLEMENTATION => START */
+@media (max-width:784px) {
+    .hero--desc--con {
+        /* border: 2px solid red; */
+        transform: translateY(3rem);
+
+    }
+
+    .hero--desc--con>.desc {
+        padding-right: 5rem;
+        word-break: keep-all;
+    }
+
+    .catIntro--desc {
+
+        padding-right: 10rem;
+
+
+    }
+
+    .latestpostIntro--desc {
+        /* here is repeated code maybe adjusted in the future*/
+        padding-right: 10rem;
+    }
+
+
+
+    .latest--post {
+        /* border: 2px solid rebeccapurple; */
+
+        place-content: baseline;
+
+
+    }
+}
+
+/*MAIN MEDIA QUERIES IMPLEMENTATION => END */
