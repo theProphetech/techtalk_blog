@@ -1,4 +1,5 @@
 #header--con {
+    position: relative;
     width: 100%;
     height: auto;
     /* border: 2px solid red; */
@@ -9,7 +10,9 @@
     justify-content: space-between;
 }
 
+
 .logo {
+    /* border: 2px solid red; */
     background: linear-gradient(to left, var(--sec--clr), var(--pry--clr));
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -24,6 +27,15 @@
     line-height: 30px;
     /* transform: skewX(-18deg); */
     border-radius: 5px;
+}
+
+.nav--options--con {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    /* width: 100%; */
+    /* border: 2px solid red; */
+    align-items: center;
 }
 
 .search--con {
@@ -45,9 +57,7 @@
     font-size: 12px;
 }
 
-.nav--con {
-    flex-basis: 35%;
-}
+/* .nav--con {} */
 
 .nav--con>li {
     display: inline-block;
@@ -72,7 +82,7 @@ Styling of hambureger icon => start
     width: 30px;
     height: 30px;
     overflow: hidden;
-    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2); */
     padding: 0 0.3rem;
     border-radius: 5px;
     cursor: pointer;

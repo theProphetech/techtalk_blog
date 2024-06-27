@@ -1,8 +1,47 @@
 /* 
 MEDIA QUERY SECTION: START
 */
-@media (max-width=770px) {}
+@media (max-width:770px) {
+    .nav--options--con {
+        display: none;
+        top: 0px;
+        right: 0;
+        position: absolute;
+        width: max-content;
+        min-height: 100vh;
+        /* border: 2px solid red; */
+        background-color: white;
+        z-index: 1;
+        gap: 0;
+        transform: translateY(80px);
+        flex-direction: column;
+        padding: 3rem 1rem;
+        /* align-items: flex-end; */
+    }
+
+    .search--con {
+        width: 200px;
+
+    }
+
+    .nav--con {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .nav--con>li {
+        /* border: 2px solid red; */
+        text-align: center;
+        display: block;
+        margin-top: 2rem;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
+
 
 /* 
-MEDIA QUERY SECTION: START
+MEDIA QUERY SECTION: END
 */
