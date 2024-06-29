@@ -7,7 +7,7 @@
 /* HERO STYLING: START */
 .hero--con {
     width: 100%;
-    padding: 3rem 2.5rem;
+    padding: 8rem 2.5rem;
 }
 
 .hero {
@@ -78,7 +78,7 @@
 }
 
 .hero--desc--con>.desc {
-    line-height: 25px;
+    line-height: 22px;
     margin-top: 1rem;
     word-break: break-all;
     padding-right: 20rem;
@@ -134,7 +134,10 @@
     background-color: #fff;
     padding: 1rem 1rem 1rem 1rem;
 }
-
+.category:hover img{
+    transition: transform 400ms linear;
+    transform: scale(1.3);
+}
 .category img {
     display: inline-block;
     width: 50px;

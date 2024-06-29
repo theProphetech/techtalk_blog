@@ -42,6 +42,22 @@ MEDIA QUERY SECTION: START
 }
 
 
+/* Device size for mobile medium width of 375px => start */
+
+@media screen and (max-width:385px) {
+    #header--con {
+        /* border: 2px solid red; */
+        padding: 0.5rem 1rem;
+    }
+
+    .logo {
+        font-size: 25px;
+    }
+}
+
+/* Device size for mobile medium width of 375px => end */
+
+
 /* 
 MEDIA QUERY SECTION: END
 */

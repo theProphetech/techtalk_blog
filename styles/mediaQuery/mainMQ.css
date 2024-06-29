@@ -1,4 +1,6 @@
 /*MAIN MEDIA QUERIES IMPLEMENTATION => START */
+
+/* styling tablet or ipad device size => start */
 @media (max-width:784px) {
     .hero--desc--con {
         /* border: 2px solid red; */
@@ -33,5 +35,87 @@
 
     }
 }
+
+/* styling tablet or ipad device size => end */
+
+
+/* styling mobile medium device size => start */
+@media screen and (max-width:385px) {
+    #header--con {
+        /* border: 2px solid red; */
+        padding: 0.5rem 1rem;
+    }
+
+    .logo {
+        font-size: 25px;
+    }
+
+    .hero--con {
+        width: 100%;
+        padding: 2rem 1rem;
+    }
+
+    .hero {
+
+        padding: 0.5rem;
+
+    }
+
+    .hero--desc--con {
+        padding: 1rem;
+        /* border: 2px solid red; */
+        transform: translateY(6rem);
+
+    }
+
+
+
+    .hero--desc--con>.ft--text {
+        margin-bottom: 0.5rem;
+        /* font-size: var(--mfSize--12); */
+        /* border: 2px solid red; */
+        line-height: 28px;
+        padding: 0 0.8rem;
+    }
+
+    .hero--desc--con>.h--title {
+        margin-top: 1rem;
+        font-size: var(--mfSize--25);
+        line-height: 30px;
+    }
+
+    .hero--desc--con>.desc {
+        line-height: 25px;
+        margin-top: 1rem;
+        word-break: keep-all;
+        padding-right: 0rem;
+        /* font-size: var(--mfSize--12); */
+
+    }
+
+    :is(.catIntro--desc, .latestpostIntro--desc) {
+
+        padding-right: 1rem;
+
+    }
+
+
+    .latest--postCon {
+        width: 100%;
+        padding: 5rem 2rem 10rem 2rem;
+        /* border: 2px solid red;s */
+    }
+
+    .latest--post {
+        /* border: 2px solid red; */
+        place-content: center;
+
+    }
+
+}
+
+
+
+/* styling mobile medium device size => end */
 
 /*MAIN MEDIA QUERIES IMPLEMENTATION => END */
